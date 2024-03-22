@@ -1,0 +1,111 @@
+*{
+    background-color: #fafafa;
+    font-family: 'Poppins', serif; 
+  }
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1#negrilla {
+    color: #a3a5ae;
+    font-weight:normal;
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.container {
+    gap: 16px;
+    position: relative;
+    padding: 20px;
+    align-items: start;
+}
+  
+  .about {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #a3a5ae;
+  }
+  
+  
+  
+  .card-cross1 {
+    width: 300px;
+    background-color: white;
+    height: 200px;
+    margin: 10px;
+    box-shadow: #a3a5ae;
+    border-top: 10px solid #ea5353;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 50%;
+    top: 350px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .card-cross2 {
+    width: 300px;
+    background-color: white;
+    height: 200px;
+    margin: 10px;
+    box-shadow: #a3a5ae;
+    border-top: 10px solid #62dada;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 450px;
+    top: 400px;
+    z-index: 1;
+  }
+  
+  .card-cross3 {
+    width: 300px;
+    background-color: white;
+    height: 200px;
+    margin: 10px;
+    box-shadow: #a3a5ae;
+    border-top: 10px solid #4a9dfc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 430px;
+    top: 400px;
+    z-index: 1;
+  }
+  
+  .card-cross4 {
+    width: 300px;
+    background-color: white;
+    height: 200px;
+    margin: 10px;
+    box-shadow: #a3a5ae;
+    border-top: 10px solid #fc9b1d;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: -650px;
+    transform: translateX(-50%);
+  }
+  
+
+  
