@@ -32,7 +32,7 @@ main {
     gap: 16px;
     position: relative;
     padding: 20px;
-    align-items: start;
+    align-items: center;
 }
 
 .container p{
